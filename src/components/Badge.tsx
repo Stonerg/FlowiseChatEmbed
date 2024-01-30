@@ -44,14 +44,14 @@ export const Badge = (props: Props) => {
         bottom: 0,
         padding: '10px',
         margin: 'auto',
-        width: '50%',
+        width: '100%',
         'text-align': 'center',
         color: props.poweredByTextColor ?? defaultTextColor,
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      {/* Powered by */}
-      {/* <a
+      Powered by
+      <a
         ref={liteBadge}
         href={'https://flowiseai.com'}
         target="_blank"
@@ -59,9 +59,9 @@ export const Badge = (props: Props) => {
         class="lite-badge"
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
-      > */}
-      {/* <span> Flowise</span> */}
-      {/* </a> */}
+      >
+      <span> Flowise</span>
+      </a>
     </span>
   );
 };
