@@ -44,7 +44,7 @@ export const Badge = (props: Props) => {
         bottom: 0,
         padding: '10px',
         margin: 'auto',
-        width: '100%',
+        width: '50%',
         'text-align': 'center',
         color: props.poweredByTextColor ?? defaultTextColor,
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
@@ -60,7 +60,7 @@ export const Badge = (props: Props) => {
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       > */}
-        {/* <span> Flowise</span> */}
+      {/* <span> Flowise</span> */}
       {/* </a> */}
     </span>
   );
