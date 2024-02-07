@@ -287,7 +287,7 @@ textarea {
 .total-files-indicator {
   background-color: #0042da;
   color: var(--chatbot-button-color);
-  font-size: 20px;
+  font-size: 14px;
 }
 
 .chatbot-upload-input {
@@ -450,4 +450,8 @@ input {
   border: none;
   padding: 10px 10px;
   font-family: 'Poppins', sans-serif;
+}
+
+.px-4 {
+  font-size: 20px;
 }
