@@ -39,7 +39,7 @@ export const Badge = (props: Props) => {
   return (
     <span
       style={{
-        'font-size': '13px',
+        'font-size': '16px',
         position: 'absolute',
         bottom: 0,
         padding: '10px',
@@ -50,7 +50,7 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      Powered by
+      {/* Powered by */}
       {/* <a
         ref={liteBadge}
         href={'https://flowiseai.com'}
