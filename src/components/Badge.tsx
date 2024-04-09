@@ -50,8 +50,8 @@ export const Badge = (props: Props) => {
         'background-color': props.badgeBackgroundColor ?? '#ffffff',
       }}
     >
-      {/* Powered by */}
-      {/* <a
+      { Powered by }
+      { <a
         ref={liteBadge}
         href={'https://flowiseai.com'}
         target="_blank"
@@ -60,8 +60,8 @@ export const Badge = (props: Props) => {
         id="lite-badge"
         style={{ 'font-weight': 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> Flowise</span>
-      </a> */}
+        <span> asistent.net</span>
+      </a>}
     </span>
   );
 };
